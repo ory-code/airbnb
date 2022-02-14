@@ -1,0 +1,154 @@
+@media screen and (max-width: 767px) {
+  .search {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .search__dateRange {
+    width: 250px;
+  }
+  .search > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 380px;
+    font-size: 20px;
+  }
+  
+  .search > input {
+    width: 540px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    height: 30px;
+    top: 420px;
+    border: none;
+  }
+  
+  .search > input:focus {
+      outline: none;
+  }
+  
+  .search > Button {
+      position: absolute;
+      left: 0;
+      top: 480px;
+      text-transform: inherit !important; ;
+      background-color: #ff7779;
+      color: white;
+      width: 579px;
+      border: none;
+  }
+  
+  .search > Button:hover {
+      background-color: white;
+      color: #ff7779;
+  }
+}
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  .search {
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    z-index: 100;
+  }
+  
+  .search > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 380px;
+    font-size: 20px;
+  }
+  
+  .search > input {
+    width: 540px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    height: 30px;
+    top: 420px;
+    border: none;
+  }
+  
+  .search > input:focus {
+      outline: none;
+  }
+  
+  .search > Button {
+      position: absolute;
+      left: 0;
+      top: 480px;
+      text-transform: inherit !important; ;
+      background-color: #ff7779;
+      color: white;
+      width: 579px;
+      border: none;
+  }
+  
+  .search > Button:hover {
+      background-color: white;
+      color: #ff7779;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .search {
+    position: absolute;
+    top: 35px;
+    left: 35%;
+  }
+  
+  .search > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 380px;
+    font-size: 20px;
+  }
+  
+  .search > input {
+    width: 540px;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    height: 30px;
+    top: 420px;
+    border: none;
+  }
+  
+  .search > input:focus {
+      outline: none;
+  }
+  
+  .search > Button {
+      position: absolute;
+      left: 0;
+      top: 480px;
+      text-transform: inherit !important; ;
+      background-color: #ff7779;
+      color: white;
+      width: 579px;
+      border: none;
+  }
+  
+  .search > Button:hover {
+      background-color: white;
+      color: #ff7779;
+  }
+}
+
